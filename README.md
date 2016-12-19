@@ -2,6 +2,8 @@
 
 Blank — starter [Hugo](//gohugo.io/) theme for developers. Use it to make your own theme.
 
+[Live Demo](http://themes.gohugo.io/theme/blank/)
+
 ![Blank theme screenshot](https://github.com/Vimux/blank/blob/master/images/splash.png)
 
 ## Installation
@@ -18,7 +20,7 @@ Next, open `config.toml` in the base of the Hugo site and ensure the theme optio
 theme = "blank"
 ```
 
-For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
+For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
 ## Contributing
 
@@ -26,4 +28,4 @@ Have you found a bug or got an idea for a new feature? Feel free to use the [iss
 
 ## License
 
-This theme is released under the [MIT license](LICENSE.md).
+This theme is released under the [MIT license](//github.com/Vimux/blank/blob/master/LICENSE.md).

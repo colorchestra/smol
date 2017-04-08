@@ -5,7 +5,7 @@ description = "Starter Hugo theme for developers."
 homepage = "https://github.com/vimux/blank/"
 tags = ["blog", "plain", "blank", "starter"]
 features = ["blog"]
-min_version = 0.17
+min_version = 0.19
 
 [author]
   name = "Vimux"

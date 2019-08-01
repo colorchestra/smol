@@ -28,4 +28,4 @@ Have you found a bug or got an idea for a new feature? Feel free to use the [iss
 
 ## License
 
-This theme is released under the [MIT license](https://github.com/Vimux/blank/blob/master/LICENSE.md).
+This theme is released under the [MIT license](https://github.com/Vimux/blank/blob/master/LICENSE).

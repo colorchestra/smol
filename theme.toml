@@ -1,6 +1,6 @@
 name = "Blank"
 license = "MIT"
-licenselink = "https://github.com/vimux/blank/blob/master/LICENSE.md"
+licenselink = "https://github.com/vimux/blank/blob/master/LICENSE"
 description = "Starter Hugo theme for developers."
 homepage = "https://github.com/vimux/blank/"
 tags = ["blog", "plain", "blank", "starter"]

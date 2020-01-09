@@ -15,9 +15,11 @@
 				</ul>
 			</div>
 			{{ end }}
+			{{ with .Site.DisqusShortname }}
 			<div>
 				{{ template "_internal/disqus.html" . }}
 			</div>
+			{{ end }}
 		</article>
 	</main>
 {{ partial "sidebar.html" . }}

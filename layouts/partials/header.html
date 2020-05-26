@@ -1,7 +1,7 @@
 <header>
-	{{ strings.Repeat ( .Site.Title | countrunes | add 6 ) .Site.Params.title_frame_char }}<br>
+	{{ strings.Repeat ( .Site.Title | len | add 6 ) .Site.Params.title_frame_char }}<br>
 	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
-	{{ strings.Repeat ( .Site.Title | countrunes | add 6 ) .Site.Params.title_frame_char }}<br>
+	{{ strings.Repeat ( .Site.Title | len | add 6 ) .Site.Params.title_frame_char }}<br>
 	<p>
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div>
 	<nav>

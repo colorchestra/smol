@@ -1,12 +1,16 @@
 <header>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+	==============<br>
+	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
+	==============<br>
 	{{ with .Site.Menus.main }}
+	<p>
+	<div style="float: right;">Einfach mal was mit Holz machen.</div>
 	<nav>
-		<ul>
+			<a href="/"><b>Posts</b></a>.
 			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
 			{{ end }}
-		</ul>
 	</nav>
+	</p>
 	{{ end }}
 </header>

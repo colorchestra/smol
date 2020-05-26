@@ -1,12 +1,12 @@
 <header>
-	==============<br>
+	{{ strings.Repeat ( .Site.Title | countrunes | add 6 ) .Site.Params.title_frame_char }}<br>
 	== <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ==<br>
-	==============<br>
-	{{ with .Site.Menus.main }}
+	{{ strings.Repeat ( .Site.Title | countrunes | add 6 ) .Site.Params.title_frame_char }}<br>
 	<p>
-	<div style="float: right;">Einfach mal was mit Holz machen.</div>
+	<div style="float: right;">{{ .Site.Params.subtitle }}</div>
 	<nav>
-			<a href="/"><b>Posts</b></a>.
+			<a href="/"><b>Start</b></a>.
+			{{ with .Site.Menus.main }}
 			{{ range . }}
 			<a href="{{ .URL | relURL }}"><b>{{ .Name }}</b></a>.
 			{{ end }}

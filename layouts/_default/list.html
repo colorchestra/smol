@@ -6,10 +6,16 @@
 			{{ with .Content }}<div>{{ . }}</div>{{ end }}
 		</div>
 		{{ end }}
-
-		{{ range .Paginator.Pages }}
-			{{ .Render "summary" }}
-		{{ end }}
+		
+		<ul>
+		    {{ range .Paginator.Pages }}
+		    <li>
+		        <div class="post-title">
+				{{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{.Title }}</a>
+		        </div>
+		    </li>
+		    {{ end }}
+		</ul>
 		{{ partial "pagination.html" . }}
 	</main>
 {{ partial "sidebar.html" . }}

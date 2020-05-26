@@ -1,12 +1,17 @@
-name = "Blank"
+name = "smol"
 license = "MIT"
-licenselink = "https://github.com/vimux/blank/blob/master/LICENSE"
-description = "Starter Hugo theme for developers."
-homepage = "https://github.com/vimux/blank/"
-tags = ["blog", "plain", "blank", "starter", "development"]
-features = ["blog"]
+licenselink = "https://github.com/colorchestra/smol/blob/master/LICENSE"
+description = "Minimal Hugo theme using a Monospace font and without any tracking or external dependencies."
+homepage = "https://github.com/colorchestra/smol"
+tags = ["blog", "minimal", "monospace", "dark mode", "simple", "clean", "light", "responsive", "fast", "no-js", "no-tracking", "privacy"]
+features = ["blog", "privacy", "responsive", "fast"]
 min_version = "0.20"
 
 [author]
-  name = "Vimux"
-  homepage = "https://github.com/vimux"
+  name = "morph"
+  homepage = "morph.sh"
+
+[original]
+  author = "Vimux"
+  homepage = "https://github.com/Vimux"
+  repo = "https://github.com/colorchestra/blank"

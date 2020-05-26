@@ -1,6 +1,8 @@
 # smol
 
-A minimal Hugo theme based on [Blank](https://github.com/Vimux/Blank) using a Monospace font and not much else.
+A minimal Hugo theme that respects your privacy and is easy on your bandwidth.
+
+smol is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](https://github.com/Vimux)
 
 ## Features
 

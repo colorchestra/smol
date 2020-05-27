@@ -1,14 +1,19 @@
 # smol
 
-A minimal Hugo theme that respects your privacy and is easy on your bandwidth.
+A minimal, monospaced blogging theme for Hugo that respects your privacy and is easy on your bandwidth.
+
+A real-life example can be found at https://morph.sh.
 
 smol is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](https://github.com/Vimux).
+
+
+![Screenshot](/images/tn.png)
 
 ## Features
 
 - No JavaScript
 - No Google spyware or tracking of any kind
-- No other external dependencies
+- No other external dependencies, embedded fonts or comment sections
 - Dark mode support (depending on your OS's setting)
 
 ## Installation
@@ -25,7 +30,7 @@ Next, open `config.toml` in the base of the Hugo site and ensure the theme optio
 theme = "smol"
 ```
 
-Lastly, add the following lines to your `config.toml` to make use of all the menu entries in the header and the footer if you need them.
+Lastly, add the following lines to your `config.toml` to make use of all the menu entries in the header and footer sections if you need them.
 
 ```
 # Header
@@ -65,7 +70,6 @@ Lastly, add the following lines to your `config.toml` to make use of all the men
         weight = 3 
 
 ```
-
 
 For more information read the official [quick start guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
 

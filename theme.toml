@@ -1,6 +1,6 @@
 name = "smol"
 license = "MIT"
-licenselink = "https://github.com/colorchestra/smol/blob/master/LICENSE"
+licenselink = "https://github.com/colorchestra/smol/blob/master/LICENSE.md"
 description = "Minimal Hugo theme using a Monospace font and without any tracking or external dependencies."
 homepage = "https://github.com/colorchestra/smol"
 tags = ["blog", "minimal", "monospace", "dark mode", "simple", "clean", "light", "responsive", "fast", "no-js", "no-tracking", "privacy"]

@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2016 Vimux
+
 Copyright (c) 2020 colorchestra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of

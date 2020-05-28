@@ -3,18 +3,13 @@
 		<article>
 			<h1>{{ .Title }}</h1>
 			<b><time>{{ .Date.Format "02.01.2006 15:04" }}</time></b>
+		       {{ range .Params.tags }}
+		           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        	       {{ end }}
+
 			<div>
 				{{ .Content }}
 			</div>
-			{{ with .Params.tags }}
-			<div>
-				<ul id="tags">
-					{{ range . }}
-					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			{{ end }}
 		</article>
 	</main>
 {{ partial "sidebar.html" . }}

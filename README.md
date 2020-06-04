@@ -56,12 +56,12 @@ Lastly, add the following lines to your `config.toml` to make use of all the men
 # Footer
   [[menu.footer]]
         name = "Github"
-        url = "https://github.com/example
+        url = "https://github.com/example"
         weight = 1 
 
     [[menu.footer]]
         name = "Mastodon"
-        url = "https://example.com/@user
+        url = "https://example.com/@user"
         weight = 2 
 
     [[menu.footer]]

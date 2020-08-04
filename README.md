@@ -30,9 +30,14 @@ Next, open `config.toml` in the base of the Hugo site and ensure the theme optio
 theme = "smol"
 ```
 
-Lastly, add the following lines to your `config.toml` to make use of all the menu entries in the header and footer sections if you need them.
+Lastly, add the following lines to your `config.toml` to set site parameters and make use of all the menu entries in the header and footer sections if you need them.
 
 ```
+# Parameters
+[params]
+    subtitle = "Your blog subtitle goes here!"
+    dateFmt = "02.01.2006 15:04"
+
 # Header
 [menu]
   [[menu.main]]

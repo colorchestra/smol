@@ -1,6 +1,6 @@
 <article>
 	<h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-	<b><time>{{ .Date.Format "02.01.2006 15:04" }}</time></b>
+	<b><time>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}</time></b>
 	{{ range .Params.tags }}
 	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}

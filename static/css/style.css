@@ -6,4 +6,4 @@ article{padding:24px 0}
 .center {display: block;margin-left: auto;margin-right: auto;width: 100%;}
 img {display: block; max-width: 100%; height: auto;}
 figcaption {color: #888; font: 12px/1.5 monospace; text-align: center;}
-
+figure {margin: auto}

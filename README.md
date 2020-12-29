@@ -1,8 +1,6 @@
 # smol
 
-A minimal, monospaced blogging theme for Hugo that respects your privacy and is easy on your bandwidth.
-
-A real-life example can be found at https://morph.sh.
+A minimal, monospaced blogging theme for Hugo that respects your privacy and is easy on your bandwidth. A demo can be found at https://smol-demo.morph.sh.
 
 smol is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](https://github.com/Vimux).
 
@@ -77,6 +75,13 @@ Lastly, add the following lines to your `config.toml` to set site parameters and
 ```
 
 For more information read the official [quick start guide](https://gohugo.io/getting-started/quick-start/) of Hugo.
+
+## Optional features
+### Custom copyright text
+Add `copyright = "Your text here"` - in the config.toml to change the copyright notice in the footer.
+
+### Image captions
+You can add captions to images (technically using `<figcaption>` HTML tags) by adding titles, like so: `![Alt text here](/path/to/image.png "Put your caption here!")`
 
 ## Contributing
 

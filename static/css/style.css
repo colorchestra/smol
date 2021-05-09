@@ -1,5 +1,5 @@
 html {overflow-y: scroll}
-body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:#444}h1,h2,h3{line-height:1.2}@media (prefers-color-scheme: dark){body{color:white;background:#444}a:link{color:#5bf}a:visited{color:#ccf}}
+body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:#444}h1,h2,h3{line-height:1.2}@media (prefers-color-scheme: dark){body{color:white;background:#000000}a:link{color:#5bf}a:visited{color:#e94560}}
 p > code{color: #FFFFFF; background:#000000; padding:2px}
 pre{color: #FFFFFF; background:#000000; padding:24px; overflow-x: auto}
 article{padding:24px 0}

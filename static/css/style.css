@@ -1,6 +1,7 @@
 html {overflow-y: scroll}
-:root { --darkbg: #000; --darklink: #5bf; --darkvisited: #e94560; }
-body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:#444}h1,h2,h3{line-height:1.2}@media (prefers-color-scheme: dark){body{color:white;background:#000000}a:link{color:#5bf}a:visited{color:#e94560}}
+:root { --bgcolor: white; --fontcolor: #444; --linkcolor: #00e; --visitedcolor: #551a8b;}
+@media (prefers-color-scheme: dark) { :root { --bgcolor: black; --fontcolor: white; --linkcolor: #5bf; --visitedcolor: #e94560;}}
+body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:var(--fontcolor); background: var(--bgcolor)}a:link{color: var(--linkcolor)}a:visited{color: var(--visitedcolor)}a:active{color: var(--visitedcolor)}h1,h2,h3{line-height:1.2}
 p > code{color: #FFFFFF; background:#000000; padding:2px}
 pre{color: #FFFFFF; background:#000000; padding:24px; overflow-x: auto}
 article{padding:24px 0}

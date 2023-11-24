@@ -3,6 +3,7 @@ html {overflow-y: scroll}
 @media (prefers-color-scheme: dark) { :root { --bgcolor: black; --fontcolor: white; --linkcolor: #5bf; --visitedcolor: #ae5ee0; --precolor: #fff; --prebgcolor: #383838;}}
 body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:var(--fontcolor); background: var(--bgcolor)}a:link{color: var(--linkcolor)}a:visited{color: var(--visitedcolor)}a:active{color: var(--visitedcolor)}h1,h2,h3{line-height:1.2}
 p > code{color: var(--precolor); background: var(--prebgcolor); padding:2px}
+code{color: var(--precolor); background: var(--prebgcolor); padding:2px}
 pre{color: var(--precolor); background: var(--prebgcolor); padding:24px; overflow-x: auto}
 article{padding:24px 0}
 .center {display: block;margin-left: auto;margin-right: auto;width: 100%;}
